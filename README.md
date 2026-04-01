@@ -1,6 +1,8 @@
 # tr4shy_colors
 
-`tr4shy_colors` is a pastel-neon terminal palette extracted from a local Windows Terminal configuration.
+![tr4shy_colors](tr4shy_colors.png)
+
+`tr4shy_colors` is a pastel-neon terminal palette made by tr4shyyy
 
 ## Palette
 
@@ -88,8 +90,4 @@ Theme:
 }
 ```
 
-## Next
 
-- Add previews and screenshots.
-- Add ports for other terminals and editors.
-- Add install snippets for each supported target.
