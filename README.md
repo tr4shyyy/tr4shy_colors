@@ -12,21 +12,21 @@
 | foreground | `#F9F9F9` |
 | cursorColor | `#F9F9F9` |
 | selectionBackground | `#434C5E` |
-| black | `#181825` |
+| black | `#16161D` |
 | red | `#FA5AA4` |
 | green | `#2BE491` |
-| yellow | `#FA946E` |
+| yellow | `#FFC849` |
 | blue | `#63C5EA` |
 | purple | `#CF8EF4` |
-| cyan | `#89CCF7` |
+| cyan | `#89E3F7` |
 | white | `#F9F9F9` |
 | brightBlack | `#5C6780` |
-| brightRed | `#FA5AA4` |
-| brightGreen | `#2BE491` |
-| brightYellow | `#FA946E` |
-| brightBlue | `#63C5EA` |
-| brightPurple | `#CF8EF4` |
-| brightCyan | `#89CCF7` |
+| brightRed | `#F63D92` |
+| brightGreen | `#15E98A` |
+| brightYellow | `#FFBB1E` |
+| brightBlue | `#51C8F5` |
+| brightPurple | `#D284FF` |
+| brightCyan | `#89F6F7` |
 | brightWhite | `#FFFFFF` |
 
 ## Files
@@ -36,97 +36,4 @@
 - `themes/codex/tr4shy_colors.tmTheme`: TextMate theme export for Codex/editor syntax highlighting.
 - `themes/codex/preview-tr4shy-codex-theme.ps1`: console preview for the Codex/TextMate token colors.
 - `palette.json`: flattened export intended to be easy to consume from scripts and generators.
-
-## Windows Terminal
-
-Scheme:
-
-```json
-{
-  "name": "tr4shy_colors",
-  "background": "#181825",
-  "black": "#181825",
-  "blue": "#63C5EA",
-  "brightBlack": "#5C6780",
-  "brightBlue": "#63C5EA",
-  "brightCyan": "#89CCF7",
-  "brightGreen": "#2BE491",
-  "brightPurple": "#CF8EF4",
-  "brightRed": "#FA5AA4",
-  "brightWhite": "#FFFFFF",
-  "brightYellow": "#FA946E",
-  "cursorColor": "#F9F9F9",
-  "cyan": "#89CCF7",
-  "foreground": "#F9F9F9",
-  "green": "#2BE491",
-  "purple": "#CF8EF4",
-  "red": "#FA5AA4",
-  "selectionBackground": "#434C5E",
-  "white": "#F9F9F9",
-  "yellow": "#FA946E"
-}
-```
-
-Theme:
-
-```json
-{
-  "name": "tr4shy_colors",
-  "tab": {
-    "background": "#181825FF",
-    "iconStyle": "default",
-    "showCloseButton": "never",
-    "unfocusedBackground": null
-  },
-  "tabRow": {
-    "background": "#181825FF",
-    "unfocusedBackground": "#181825FF"
-  },
-  "window": {
-    "applicationTheme": "system",
-    "experimental.rainbowFrame": false,
-    "frame": null,
-    "unfocusedFrame": null,
-    "useMica": false
-  }
-}
-```
-
-## Alacritty
-
-```toml
-
-#tr4shy_colors
-#by tr4shyyy
-#https://github.com/tr4shyyy/tr4shy_colors
-
-
-#Default colors
-[colors.primary]
-background = '#181825'
-foreground = '#F9F9F9'
-
-# Normal colors
-[colors.normal]
-black   = '#181825'
-red     = '#FA5AA4'
-green   = '#2BE491'
-yellow  = '#FA946E'
-blue    = '#63C5EA'
-magenta = '#CF8EF4'
-cyan    = '#89CCF7'
-white   = '#F9F9F9'
-
-# Bright colors
-[colors.bright]
-black   = '#5C6780'
-red     = '#FA5AA4'
-green   = '#2BE491'
-yellow  = '#FA946E'
-blue    = '#63C5EA'
-magenta = '#CF8EF4'
-cyan    = '#89CCF7'
-white   = '#FFFFFF'
-
-
 
