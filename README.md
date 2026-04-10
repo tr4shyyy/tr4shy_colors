@@ -33,6 +33,8 @@
 
 - `palettes/windows-terminal/tr4shy_colors.json`: raw Windows Terminal color scheme.
 - `themes/windows-terminal/tr4shy_colors.theme.json`: matching Windows Terminal UI theme block.
+- `themes/codex/tr4shy_colors.tmTheme`: TextMate theme export for Codex/editor syntax highlighting.
+- `themes/codex/preview-tr4shy-codex-theme.ps1`: console preview for the Codex/TextMate token colors.
 - `palette.json`: flattened export intended to be easy to consume from scripts and generators.
 
 ## Windows Terminal
